@@ -1,0 +1,4 @@
+Narrative:
+In order to test much of WebPT's EMR functionality
+As a Test Developer
+I need to create fixtures in my test automation company for my tests to use

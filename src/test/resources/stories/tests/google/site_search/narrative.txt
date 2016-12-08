@@ -1,0 +1,4 @@
+Narrative:
+In order to find information about items I'm after
+As an online consumer
+I need to be able to use Google's search features to locate information about the items

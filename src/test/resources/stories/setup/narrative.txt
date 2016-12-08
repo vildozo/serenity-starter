@@ -1,4 +1,4 @@
 Narrative:
-In order to test much of WebPT's EMR functionality
+In order to test much of the system's functionality
 As a Test Developer
-I need to create fixtures in my test automation company for my tests to use
+I need to create fixtures for my tests to use

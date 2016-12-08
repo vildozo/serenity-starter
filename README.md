@@ -143,6 +143,7 @@ To execute setup you just have to activate the *setup* profile.
 
     mvn clean verify -Psetup
 
+**The setup suite in this project is just included as an example but doesn't do anything, so you don't need to run it.**
 
 ### Running Only Specific Tests
 

@@ -14,8 +14,14 @@ Inorder to execute the tests in this project your system must have the following
  2. Docker
     - If you are on Mac I'd recommend [Docker Toolbox](https://www.docker.com/products/docker-toolbox) over Docker for Mac. Docker for Mac seems to hang and crash a lot. 
  3. Maven 3.x
+ 4. There is a private WebPT internal maven repository that you must be able to connect to. As long as you are connected 
+ to the WebPT VPN you should be able to access it and maven should be able to pull in the projects it needs.
  
 ## Execution
+
+Basic execution is done with the Maven 'verify' command. So in it's simplest form you would just execute:
+
+    mvn clean verify
 
 Properties and Profiles are used in this project to allow it to execute tests with flexible configuration.
 You can request any profile, or override any property on the command line. 
@@ -43,7 +49,7 @@ or activated in your local settings.xml file.
 
 #### Environments
 *Note for this project these will make the tests fail as they will overwrite the base url for the pages we are access. 
-I've just included these for examples here*
+I've just included these for examples here because you will use them in real projects.*
 - **env-sdev** - runs tests against the sdev environment
 - **env-test** - runs tests against the test environment
 
